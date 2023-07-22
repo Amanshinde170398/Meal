@@ -1,0 +1,63 @@
+#search-meal {
+  width: 28rem;
+}
+
+.meal-card-container {
+  max-width: 22rem;
+  margin: 0 auto 2.6875rem;
+  box-shadow: 0px 0.125rem 5px rgba(44, 44, 44, 0.14);
+}
+
+.meal-card {
+  padding: 0.7rem 1.875rem 0.875rem;
+  border: 0.0625rem solid #e9e9f4;
+}
+
+.meal-card-img-container {
+  border: 0.01875rem solid #f1f1f1;
+  height: 7.5rem;
+  width: 12.625rem;
+  margin: 0.55rem auto 1.25rem auto;
+  padding: 0.1rem;
+}
+
+.meal-img > img {
+  width: 100%;
+  max-height: 7.4rem;
+}
+
+.meal-tag {
+  height: 2.3125rem;
+}
+.tag {
+  background-color: #7d87d4;
+  text-align: center;
+  color: white;
+  border-radius: 0.3125rem;
+  padding: 0.1rem 0.5rem 0rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.6;
+}
+.meal-data {
+  font-size: 1.25rem;
+  color: #4d129e;
+  font-weight: 300;
+  line-height: 1.5;
+  height: 5.5625rem;
+  overflow: hidden;
+}
+
+.meal-card p {
+  font-size: 0.875rem;
+  color: #242424;
+  padding-top: 0.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-decoration: none;
+  overflow: hidden;
+}

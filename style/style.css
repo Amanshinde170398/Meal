@@ -1,0 +1,10 @@
+a:hover {
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  /* justify-content: left; */
+  grid-template-columns: auto auto;
+  gap: 10px;
+}

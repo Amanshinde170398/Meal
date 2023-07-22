@@ -9,10 +9,93 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>MEAL</title>
   </head>
   <body>
+    <!--Navbar start-->
+    <nav class="navbar navbar-dark bg-dark sticky-top px-5">
+      <a class="navbar-brand text-white">Meal App</a>
+      <form class="form-inline">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          id="search-meal"
+        />
+      </form>
+      <div id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="#"
+              >Favourite <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar end-->
+    <!-- Home page Start -->
+    <!-- Meal Image Start-->
+    <!-- <div class="">
+      <img />
+    </div> -->
+    <!-- Meal Image End-->
+
+    <!-- Meal card start-->
+    <div id="meal-container" class="my-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="meal-card-container">
+              <div class="meal-card">
+                <a href="#">
+                  <div class="meal-card-img-container">
+                    <div class="meal-img">
+                      <img
+                        src="https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="meal-card-desc-section">
+                    <div class="meal-tag">
+                      <div class="grid-container">
+                        <div class="tag">Vegeterian</div>
+                        <div class="tag">Italian</div>
+                      </div>
+                    </div>
+                    <div class="meal-data">
+                      <div>Spicy Arrabiata Penne</div>
+                      <p>
+                        Bring a large pot of water to a boil. Add kosher salt to
+                        the boiling water, then add the pasta. Cook according to
+                        the package instructions, about 9 minutes.\r\nIn a large
+                        skillet over medium-high heat, add the olive oil and
+                        heat until the oil starts to shimmer. Add the garlic and
+                        cook, stirring, until fragrant, 1 to 2 minutes. Add the
+                        chopped tomatoes, red chile flakes, Italian seasoning
+                        and salt and pepper to taste. Bring to a boil and cook
+                        for 5 minutes. Remove from the heat and add the chopped
+                        basil.\r\nDrain the pasta and add it to the sauce.
+                        Garnish with Parmigiano-Reggiano flakes and more basil
+                        and serve warm.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meal card end-->
+
+    <!-- Home page End -->
+    <!-- Bootstrap start -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -28,6 +111,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script src="./index.js" type="text/javascript"></script>
+    <!-- Boostrap end -->
+    <script src="./javascript/index.js" type="text/javascript"></script>
   </body>
 </html>
