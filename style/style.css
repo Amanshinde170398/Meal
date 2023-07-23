@@ -1,5 +1,6 @@
 a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .grid-container {
@@ -37,4 +38,18 @@ a:hover {
   text-decoration: none !important;
   text-shadow: 0;
   transition: all 0.25s linear;
+}
+
+#meal-detail-container img {
+  border-radius: 2rem;
+  width: 25rem;
+  height: 23rem;
+}
+
+.purple {
+  color: #4d129e;
+}
+
+.grey {
+  color: #4f4f4f;
 }
