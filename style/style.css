@@ -8,3 +8,33 @@ a:hover {
   grid-template-columns: auto auto;
   gap: 10px;
 }
+
+.is-hidden {
+  display: none;
+}
+
+.no-cards {
+  margin: 0 auto;
+  padding: 1.5rem;
+  width: 50%;
+  height: 5rem;
+  box-shadow: 0px 0.125rem 5px rgba(44, 44, 44, 0.14);
+  border: 1px solid #e9e9f4;
+  text-align: center;
+  color: #4d129e;
+  font-weight: 700;
+}
+
+.primary-btn {
+  padding: 0.3rem 1.1rem;
+  background-color: #4d129e;
+  min-width: 6.1875rem;
+  border-radius: 0.28rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  border: 0.01875rem solid #4d129e;
+  text-decoration: none !important;
+  text-shadow: 0;
+  transition: all 0.25s linear;
+}
